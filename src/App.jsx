@@ -3,6 +3,7 @@ import { useState,useEffect } from 'react';
 import Petition from './Components/Petition';
 import ClipLoader from "react-spinners/ClipLoader";
 
+
 function App() {
 
   const [loading,setLoading]=useState(false)
